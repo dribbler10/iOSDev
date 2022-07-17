@@ -13,6 +13,7 @@
 		B65D1A2328829D05004FF7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D1A2128829D05004FF7E2 /* Main.storyboard */; };
 		B65D1A2528829D07004FF7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65D1A2428829D07004FF7E2 /* Assets.xcassets */; };
 		B65D1A2828829D07004FF7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D1A2628829D07004FF7E2 /* LaunchScreen.storyboard */; };
+		B65D1A3228845CF3004FF7E2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65D1A3128845CF3004FF7E2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B65D1A2428829D07004FF7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65D1A2728829D07004FF7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65D1A2928829D07004FF7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65D1A3128845CF3004FF7E2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B65D1A1A28829D05004FF7E2 /* RightOnTarget */ = {
 			isa = PBXGroup;
 			children = (
+				B65D1A3128845CF3004FF7E2 /* SecondViewController.swift */,
 				B65D1A1B28829D05004FF7E2 /* AppDelegate.swift */,
 				B65D1A1D28829D05004FF7E2 /* SceneDelegate.swift */,
 				B65D1A1F28829D05004FF7E2 /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65D1A3228845CF3004FF7E2 /* SecondViewController.swift in Sources */,
 				B65D1A2028829D05004FF7E2 /* ViewController.swift in Sources */,
 				B65D1A1C28829D05004FF7E2 /* AppDelegate.swift in Sources */,
 				B65D1A1E28829D05004FF7E2 /* SceneDelegate.swift in Sources */,
