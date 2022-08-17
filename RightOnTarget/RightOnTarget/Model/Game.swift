@@ -2,38 +2,30 @@
 //  Game.swift
 //  RightOnTarget
 //
-//  Created by Asyl Yerzhanuly on 17.07.2022.
+//  Created by Asyl Yerzhanuly on 20.07.2022.
 //
 
 import Foundation
 
-protocol GameProtocol {
-    // Количество заработанных очков
-    var score: Int { get }
-    // Загаданное значение
-    var currentSecretValue: Int { get }
-    // Проверяет, закончена ли игра
+protocol Game {
+    var numberOfPoints: Int { get }
+    var currentRandomValue: Int { get }
     var isGameEnded: Bool { get }
-    // Начинает новую игру и сразу стартует первый раунд
+    func newLevel()
     func restartGame()
-    // Начинает новый раунд (обновляет загаданное число)
-    func startNewRound()
-    // Сравнивает переданное значение с загаданным и начисляет очки
-    func calculateScore(with value: Int)
+    func calculateScore(with: Int)
 }
 
-class Game:GameProtocol {
-    var score: Int = 0
-    // Минимальное загаданное значение
-    private var minSecretValue: Int
-    // Максимальное загаданное значение
-    private var maxSecretValue: Int
-    var currentSecretValue: Int = 0
-    // Количество раундов
+
+class CurrentGame: Game {
+    var numberOfPoints: Int = 0
+    private var minRandomValue: Int
+    private var maxRandomValue: Int
+    var currentRandomValue: Int = 0
     private var lastRound: Int
-    private var currentRound: Int = 1
+    private var currentLevel: Int = 1
     var isGameEnded: Bool {
-        if currentRound >= lastRound {
+        if currentLevel >= lastRound {
             return true
         } else {
             return false
@@ -41,37 +33,37 @@ class Game:GameProtocol {
     }
     
     init?(startValue: Int, endValue: Int, rounds: Int) {
-    // Стартовое значение для выбора случайного числа не может быть больше конечного
         guard startValue <= endValue else {
             return nil
         }
-        minSecretValue = startValue
-        maxSecretValue = endValue
+        minRandomValue = startValue
+        maxRandomValue = endValue
         lastRound = rounds
-        currentSecretValue = self.getNewSecretValue()
+        currentRandomValue = self.getNewRandomValue()
     }
+    
+    func newLevel() {
+        currentRandomValue = self.getNewRandomValue()
+        currentLevel += 1
+    }
+    
     func restartGame() {
-        currentRound = 0
-        score = 0
-        startNewRound()
+        numberOfPoints = 0
+        currentLevel = 0
+        newLevel()
     }
     
-    func startNewRound() {
-    currentSecretValue = self.getNewSecretValue()
-    currentRound += 1
-    }
-    
-    // Загадать и вернуть новое случайное значение
-    private func getNewSecretValue() -> Int {
-        (minSecretValue...maxSecretValue).randomElement()! }
-    // Подсчитывает количество очков
     func calculateScore(with value: Int) {
-        if value > currentSecretValue {
-            score += 50 - value + currentSecretValue
-        } else if value < currentSecretValue {
-            score += 50 - currentSecretValue + value
+        if value > currentRandomValue {
+            numberOfPoints = 50 - value + currentRandomValue
+        } else if value < currentRandomValue {
+            numberOfPoints = 50 - value + currentRandomValue
         } else {
-            score += 50
+            numberOfPoints += 50
         }
+    }
+    
+    func getNewRandomValue() -> Int {
+        (minRandomValue...maxRandomValue).randomElement()!
     }
 }
