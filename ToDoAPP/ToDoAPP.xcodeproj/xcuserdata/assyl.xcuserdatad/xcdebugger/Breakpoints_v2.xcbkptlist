@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "68B6F053-F908-48DB-BF10-B58E172E6AAE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "736451F8-898B-4FC4-9271-E844295BF9DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoAPP/Model/TasksStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "TasksStorage"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "736451F8-898B-4FC4-9271-E844295BF9DD - eb9e62923f69272a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoAPP.TasksStorage.deinit"
+                  moduleName = "ToDoAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/ToDoAPP/ToDoAPP/Model/TasksStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "736451F8-898B-4FC4-9271-E844295BF9DD - ed6ec10dadda1635"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoAPP.TasksStorage.__deallocating_deinit"
+                  moduleName = "ToDoAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/ToDoAPP/ToDoAPP/Model/TasksStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "736451F8-898B-4FC4-9271-E844295BF9DD - ece2ad62dead9c3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoAPP.TasksStorage.__allocating_init() -&gt; ToDoAPP.TasksStorage"
+                  moduleName = "ToDoAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/ToDoAPP/ToDoAPP/Model/TasksStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "736451F8-898B-4FC4-9271-E844295BF9DD - 8c3f166b83c6642b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoAPP.TasksStorage.init() -&gt; ToDoAPP.TasksStorage"
+                  moduleName = "ToDoAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/ToDoAPP/ToDoAPP/Model/TasksStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
