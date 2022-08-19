@@ -1,1 +1,5 @@
-#Game. Based on the book: "Усов.В. Swift. Разработка приложений под iOS на основе фреймворка UIKit". Without storyboard
+# Game. 
+Based on the book: "Усов.В. Swift. Разработка приложений под iOS на основе фреймворка UIKit"
+Две игры 
+1) Угадай число
+2) Угадай цвет
