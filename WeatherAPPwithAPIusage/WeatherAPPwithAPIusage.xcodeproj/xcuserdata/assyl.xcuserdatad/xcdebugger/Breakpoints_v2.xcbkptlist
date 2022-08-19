@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C181D00E-5F5E-481D-9AEF-F8EF5172B129"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72F9F6E9-22C1-4843-A094-1CE50AFE95AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAPPwithAPIusage/Extensions/ViewController+alertController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "searchAlertController(withTitle:message:style:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "870FB061-7212-4C34-AF65-9C9689FAF6CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAPPwithAPIusage/Model/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchCurrentWeather(forRequestType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "870FB061-7212-4C34-AF65-9C9689FAF6CF - 4882145751e77b00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPPwithAPIusage.NetworkManager.fetchCurrentWeather(forRequestType: WeatherAPPwithAPIusage.NetworkManager.RequestType) -&gt; ()"
+                  moduleName = "WeatherAPPwithAPIusage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/WeatherAPPwithAPIusage/WeatherAPPwithAPIusage/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "870FB061-7212-4C34-AF65-9C9689FAF6CF - 4882145751e77b00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPPwithAPIusage.NetworkManager.fetchCurrentWeather(forRequestType: WeatherAPPwithAPIusage.NetworkManager.RequestType) -&gt; ()"
+                  moduleName = "WeatherAPPwithAPIusage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/assyl/Desktop/WeatherAPPwithAPIusage/WeatherAPPwithAPIusage/Model/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
